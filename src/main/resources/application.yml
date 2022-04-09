@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+app:
+ messages:
+  contactSaveSucc: Contact saved
+  contactSaveFail: Fail to save contact
+  contactDelSucc: Contact Deleted
+  contactDelFail: Fail to delete contact
+  
+    
